@@ -1,0 +1,34 @@
+[submodule "lib/libsodium"]
+	path = lib/libsodium
+	url = https://github.com/hcnet/libsodium.git
+[submodule "lib/xdrpp"]
+	path = lib/xdrpp
+	url = https://github.com/xdrpp/xdrpp.git
+[submodule "lib/libmedida"]
+	path = lib/libmedida
+	url = https://github.com/hcnet/medida.git
+[submodule "lib/cereal"]
+	path = lib/cereal
+	url = https://github.com/USCiLab/cereal
+[submodule "lib/asio"]
+	path = lib/asio
+	url = https://github.com/chriskohlhoff/asio.git
+[submodule "lib/fmt"]
+	path = lib/fmt
+	url = https://github.com/fmtlib/fmt
+[submodule "lib/tracy"]
+	path = lib/tracy
+	url = https://github.com/hcnet/tracy
+[submodule "lib/spdlog"]
+	path = lib/spdlog
+	url = https://github.com/gabime/spdlog
+	ignore = dirty
+
+[submodule "src/protocol-curr/xdr"]
+	path = src/protocol-curr/xdr
+	url = https://github.com/shantanu-hashcash/hcnet-xdr.git
+	branch = curr
+[submodule "src/protocol-next/xdr"]
+	path = src/protocol-next/xdr
+	url = https://github.com/shantanu-hashcash/hcnet-xdr.git
+	branch = next
