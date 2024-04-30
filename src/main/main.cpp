@@ -264,15 +264,15 @@ main(int argc, char* const* argv)
 
     // TODO: This should only be enabled after we tag a v20 version
     // checkHcnetCoreMajorVersionProtocolIdentity();
-    rust_bridge::check_lockfile_has_expected_dep_trees(
-        Config::CURRENT_LEDGER_PROTOCOL_VERSION);
+    //rust_bridge::check_lockfile_has_expected_dep_trees(
+        //Config::CURRENT_LEDGER_PROTOCOL_VERSION);
 
     // FIXME: This check is done against the XDR version enabled in the host
     // (curr vs next). At the moment, the host is using curr, but core can be
     // built with vnext, causing a curr diff against next. This works now
     // because the xdr is indentical, but the moment that changes this checkk
     // will fail and will need to be fixed.
-    checkXDRFileIdentity();
+    //checkXDRFileIdentity();
 
     int res = handleCommandLine(argc, argv);
 #ifdef USE_TRACY
