@@ -5,7 +5,6 @@
 *.la
 *.lo
 *.log
-*.lib
 *.user
 *.xdr
 *.cache
@@ -43,7 +42,6 @@ compile_commands.json
 /src/archtmp-*
 /src/main/HcnetCoreVersion.cpp
 /src/main/XDRFilesSha256.cpp
-/src/testdata
 /src/protocol-curr/xdr/*.h
 /src/protocol-next/xdr/*.h
 /Makefile
